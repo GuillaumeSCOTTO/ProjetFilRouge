@@ -1,0 +1,9 @@
+name: ProjetFilRouge
+channels:
+  - defaults
+dependencies:
+  - python
+  - pillow
+  - pytesseract
+  - opencv
+prefix: /Users/guillaumescotto/opt/anaconda3/envs/ProjetFilRouge
