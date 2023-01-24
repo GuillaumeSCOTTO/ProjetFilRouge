@@ -33,8 +33,8 @@ def preprocess_final(im):
     return im
 
 def main():
-	directory = '/Users/guillaumescotto/TélécomParis/ProjetFilRouge/ProjetFilRouge/images'
-	textes_path = '/Users/guillaumescotto/TélécomParis/ProjetFilRouge/ProjetFilRouge/textes'
+	directory = './images'
+	textes_path = './textes/'
 	#textes_path2 = '/Users/scotto/PycharmProjects/ProjetFilRouge/textes2/'
 	for filename in os.listdir(directory):
 		f = os.path.join(directory, filename)
