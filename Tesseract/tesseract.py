@@ -50,7 +50,8 @@ def main():
 			if os.path.isfile(f):
 				# checking if it is an image
 				if imghdr.what(f):
-					im = np.array(Image.open(f))
+					im = cv2.imread(f)
+					#im = np.array(Image.open(f))
 					im = preprocess_final(im)
 					text = process_image2(im)
 					#image = process_image(f, "eng")
